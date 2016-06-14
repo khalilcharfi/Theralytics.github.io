@@ -8,15 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="bootstrap.css" media="screen">
   <link rel="stylesheet" href="assets/css/custom.min.css">
-
-
-  <!-- Fontawesome core CSS -->
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-
-  <!-- Timeline -->
-  <link href="assets/css/timeline.css" rel="stylesheet" />
-
-
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -24,8 +15,21 @@
     <![endif]-->
 
   <script src="assets/js/responsiveImg.js"></script>
-
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
   <script>
+  var nice = false;
+
+  $(document).ready(function() {
+    nice = $("body").niceScroll({cursorcolor:"#3b5167",cursorwidth:"8px",cursorborderradius:"0px",cursorborder: "none"});
+
+  });
+  
+    
+</script>
+  <script>
+    
 $("#img1").responsiveImg();
      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-23019901-1']);
@@ -37,9 +41,12 @@ $("#img1").responsiveImg();
        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       
      })();
-
     </script>
+    <script src="assets/js/jquery.nicescroll.js"></script>
+
+    
 </head>
 
 <body>
