@@ -10,4 +10,4 @@ extracted from additional sources in the WWW and automatically propose a treatem
 validates the treatment plan and executes it.
 
 
-#### For further details, check the website(www.redcad.tn/theralytics).
+#### For further details, check the [website](www.redcad.tn/theralytics).
